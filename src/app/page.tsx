@@ -11,7 +11,7 @@ const heroPara=`
 export default function Home() {
   return (
     <section className="flex items-center justify-center min-h-screen w-full flex-col">
-      <div>
+      <div className="-mt-96 md:-mt-32">
         <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-white dark:bg-zinc-900">
           <div className="text-center">
             <h1 className="font-bold text-4xl">
